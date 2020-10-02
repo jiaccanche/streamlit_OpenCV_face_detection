@@ -146,8 +146,11 @@ def main():
       st.image(img, caption="Image subida por el usuario", use_column_width=True )         
           
   elif choice == "Acerca":
-    st.subheader("About")
-
+    st.subheader("Acerca de")
+    st.subheader("Acerca de aplicación detector de rostros")
+    st.markdown("Construido con Streamlit tutorial en inglés [Video Aquí](https://www.youtube.com/watch?v=p80IQSNf7LU)")
+    st.text("Ejemplo en español")
+    st.success("[Repositorio aquí](https://github.com/jiaccanche/streamlit_OpenCV_face_detectionn)")
 
 if __name__ == '__main__':
     main()
